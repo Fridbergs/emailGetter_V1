@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 20em;
+  border-radius: 15px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 15px;
+  list-style: none;
+}
+
+li {
+  padding: 0.5em;
+}
+
+button {
+  border: 2px solid;
+  padding: 0.7em;
+  border-radius: 10px;
+  background-color: rgb(67, 121, 121);
+  color: beige;
+  cursor: pointer;
+}
